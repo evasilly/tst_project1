@@ -7,14 +7,13 @@
 
 Строка должна оканчиваться символом "=" для выполнения.
 Например, 1 2 + =
->> Result = 3
+> Result = 3
 
 Команды:
+> make -f makefile.txt
 
-# make -f makefile.txt
+> make clean -f makefile.txt
+(перед повторным make)
 
-# make clean -f makefile.txt
-перед повторным make
-
-# make start -f makefile.txt
-для запуска программы
+> make start -f makefile.txt
+(для запуска программы)
